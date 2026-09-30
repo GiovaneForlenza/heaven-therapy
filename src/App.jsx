@@ -1,7 +1,11 @@
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+
 function App() {
   return (
-    <div className="flex h-screen flex-col items-center justify-center border text-3xl text-red-500">
-      App
+    <div className="p-0">
+      <Header />
+      <Hero />
     </div>
   );
 }
