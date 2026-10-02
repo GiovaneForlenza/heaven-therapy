@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Antic+Didone&family=Xanh+Mono&display=swap");
 @import "tailwindcss";
 
 @theme {
@@ -6,37 +7,47 @@
     "Noto Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
     "Segoe UI Symbol", "Noto Color Emoji";
   --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-  --font-title: "Literata", serif;
 
-  --color-main-green: #75826b;
-  --color-secondary-brown: #b6927c;
-  --color-dark-green: #333333;
-  --color-beige: #f5f4f0;
+  --font-title: "Arapey", serif;
+
+  --color-theme-green: #75826b;
+  --color-theme-brown: #b6927c;
+  --color-theme-dark-green: #091f01;
+  --color-theme-beige: #f5f4f0;
+  --color-theme-pink: #eae2db;
 }
 
 .font-mono {
+  font-family: "Quicksand", sans-serif;
+  /* text-transform: uppercase; */
+  letter-spacing: 1px;
+}
+h1,
+h2,
+h3 {
+  font-family: "Arapey", serif;
+}
+h4 {
   font-family: "Roboto Mono", monospace;
-  font-size: 18px;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 
 .container-big {
-  max-width: 1440px;
-  border: 1px red solid;
-  margin: auto;
-  padding: 16px 32px;
+  max-width: 1240px;
 }
 .container-small {
-  max-width: 1100px;
-  border: 1px red solid;
+  max-width: 900px;
+}
+.container-big,
+.container-small {
   padding: 16px 32px;
+  margin: auto;
 }
 
 @media screen and (max-width: 900px) {
   .container-big,
   .container-small {
     max-width: 100%;
-    border: 1px orange solid;
   }
 }
