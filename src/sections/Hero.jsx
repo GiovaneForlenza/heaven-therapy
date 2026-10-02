@@ -13,7 +13,7 @@ function Hero() {
           </div>
           <div className="flex flex-col gap-4 md:w-[50%] md:gap-8">
             <h4>Online Trauma therapy in california</h4>
-            <h1 className="text-5xl font-thin">
+            <h1 className="text-3xl font-thin md:text-5xl">
               Create Your Heaven: Embrace <span className="italic">Change</span>
               , Discover <span className="italic">Yourself</span>
             </h1>
